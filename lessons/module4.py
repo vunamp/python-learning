@@ -20,7 +20,7 @@ print(float_variable5 / 10e9999)
 string_variable = "Das ist ein Test"
 string_variable2 = 'Das ist ein Test'
 # int variable1 = 10;
-print(float(value1) + float(value2))
+
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 print(type(string_variable))
 print(numbers[0])
