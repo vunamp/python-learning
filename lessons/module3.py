@@ -1,4 +1,4 @@
-# MODUL 3 <=============================================================================================
+# MODULE 3 <=============================================================================================
 print(2023)
 print(1e1)
 print('Das ist "Cool"!')
@@ -16,3 +16,4 @@ print((4 + 3) * 2.5)
 print(85.34912e3)
 #Aufgabe 3
 print('Die Zahl "3.14" hat in der Mathematik eine spezielle Bedeutung.')
+print("To Be Continued ...(Fortsetzung folgt ...)")
