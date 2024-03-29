@@ -1,6 +1,14 @@
-# BETA VERSION
-input("Hallo wie geht es dir:")
-value1 = input("Bitte gib die erste zahl ein:")
-value2 = input("Bitte gib die zweite zahl ein:")
-print(float(value1) + float(value2))
+number1 = float(input("Gebe die erste Zahl ein: "))
+number2 = float(input("Gebe die zweite Zahl ein: "))
+operation = input("Welche Operation (+, -, *, /) soll durchgeführt werden?: ")
 
+if operation == "+":
+    print(number1 + number2)
+elif operation == "-":
+    print(number1 - number2)
+elif operation == "*":
+    print(number1 * number2)
+elif operation == "/":
+    print(number1 / number2)
+else:
+    print("Ungültige Operation ...")

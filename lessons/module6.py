@@ -33,7 +33,7 @@ elif number == 9:
     # ...
 else:
     print("Die eingegebene Zahl ist entweder die 0 oder die 10 oder sie ist grösser als die 10 ")
-
+    
 print("Hier gehts weiter ....")
 # ======================================================================================================
 # while schleife
@@ -41,3 +41,15 @@ counter = 7
 while counter < 10:
     print("Das ist eine ausgabe ....")
     counter += 1
+# Programmieraufgaben + Beispiellösungen ===============================================================
+for i in(1,101):
+    if (i%3) == 0 and (i%4) == 0:
+        print("teilbar durch 3 und 4")
+    elif (i%3) == 0:
+        print("teilbar durch 3")
+    elif (i%4) == 0:
+        print("teilbar durch 4")
+    else:
+        print()
+
+
